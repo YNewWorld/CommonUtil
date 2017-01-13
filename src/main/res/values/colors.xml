@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="White">#ffffff</color>
+    <color name="toast_bg_gray">#E0505050</color>
+    <color name="text_black">#121212</color>
+    <color name="blue_ok_cancel">#1970ff </color>
+</resources>

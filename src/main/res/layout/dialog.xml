@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialog_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/msg_bg" >
+
+        <TextView
+            android:id="@+id/tv_dialog_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dip"
+            android:text="Title"
+            android:gravity="center"
+            android:textColor="@color/text_black"
+            android:textSize="18dip"
+            android:textStyle="bold" />
+        
+        <TextView
+            android:id="@+id/tv_dialog_msg"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="50dp"
+            android:paddingTop="8dp"
+            android:layout_margin="8dp"
+            android:gravity="center|top"
+            android:layout_below="@id/tv_dialog_title"
+            android:textColor="@color/text_black"
+             android:text="text"
+            android:textSize="16dp" />
+        
+        <Button
+            android:id="@+id/btn_ok"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:paddingTop="6dp"
+            android:layout_below="@id/tv_dialog_msg"
+            android:background="@drawable/msg_ok_selector"
+            android:gravity="center"
+            android:text="@string/dialog_ok"
+            android:textColor="@color/blue_ok_cancel"
+            android:textSize="18dp" />
+    </RelativeLayout>
+
+</LinearLayout>

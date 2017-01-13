@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="myMarkDialog" parent="android:style/Theme.Translucent.NoTitleBar">
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+</resources>
